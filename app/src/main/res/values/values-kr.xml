@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name="app_name0">Multilingual App</string>
+        <string name="login0">உள்நுழைய</string>
+        <string name="password0">கடவுச்சொல்</string>
+
+        <string name="signin0">பதிவுபெறுதல்</string>
+</resources>
