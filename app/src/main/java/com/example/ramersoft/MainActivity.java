@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Spinner spin = (Spinner) findViewById(R.id.spinner1);
+        Button login=(Button)findViewById(R.id.button) ;
 
         currentLanguage = getIntent().getStringExtra(currentLang);
         if(currentLanguage!=null) {
@@ -93,5 +94,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public void login(View view){
+        Intent i=new Intent(this,HomeScreen.class);
+        startActivity(i);
     }
 }

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">ramersoft</string>
 
-
+    <string-array name="navigation_drawer_items_array">
+        <item>Register</item>
+        <item>UserList</item>
+        <item>Maps</item>
+    </string-array>
 
 </resources>
