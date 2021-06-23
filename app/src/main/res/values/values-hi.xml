@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name="app_name1">Multilingual App</string>
+        <string name="login1">उपयोगकर्ता नाम</string>
+        <string name="password1">पासवर्ड</string>
+
+        <string name="signin1">लॉग इन करें</string>
+
+</resources>
